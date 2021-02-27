@@ -67,7 +67,6 @@ namespace MyClass
             else
             {
                 Console.WriteLine("Empty / invalid response received.");
-                Console.WriteLine("\nMake sure your cookie.txt file isn't corrupted.");
             }
         }
     }
