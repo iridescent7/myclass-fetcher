@@ -8,7 +8,6 @@ namespace MyClass
 {
     class Program
     {
-        private static string _cookiePath = Path.Combine(AppContext.BaseDirectory, "cookie.txt");
         private static string _scheduleJsonPath = Path.Combine(AppContext.BaseDirectory, "schedule.json");
 
         private static MyClassClient client = new MyClassClient();
